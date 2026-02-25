@@ -1,0 +1,24 @@
+# ReflectAI Backend Dependencies
+# Python 3.10+
+
+# FastAPI Framework
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# Pydantic for data validation
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# Machine Learning / NLP
+transformers==4.37.2
+torch==2.2.0
+vaderSentiment==3.3.2
+sentencepiece==0.1.99
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.31.0
+
+# Production
+gunicorn==21.2.0
